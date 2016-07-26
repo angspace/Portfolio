@@ -1,20 +1,26 @@
 header{
   background: #CCC;
-  height:700px;
+  height:800px;
   background: url(286H.jpg) center;
   background-size: cover;
 }
 
+  body{
+  font-family: 'Montserrat', sans-serif;
+}
 object{
   height: 50px;
   width: 50px;
-  margin: 10px 0 0 30px;
+  margin: 0px 0 0 30px;
   float:left;
+  color:white;
 
 }
 
 
-nav{
+
+
+.title-menu{
   float:right;
   margin: 30px 30px 0 0;
 }
@@ -24,12 +30,17 @@ nav a{
   margin-left:20px;
   text-transform: uppercase;
   font-weight: 700;
-  color: rgba(0,0,0,0.7);
+  color: white;
   font-size: 14px;
+
 }
 
 nav a:hover{
   color: rgba(0,0,0,1);
+}
+
+.logo path{
+  fill: green;
 }
 
 h1{
@@ -47,7 +58,7 @@ h1{
 
 span{
   display: inline-block;
-  padding: 0.5em 0.2em;
+  padding: 0.55em 0.3em;
   border: white solid 10px;
 }
 
@@ -58,6 +69,24 @@ span{
   line-height: 1;
 }
 
-#Layer_1 path{
-  fill:green;
+.loren-ipsum-text{
+  padding:20px 10px 10px 20px;
 }
+
+footer{
+  background: #CCC;
+  height:170px;
+  background: url(286H.jpg) center;
+  background-size: cover;
+
+}
+
+.lockup{
+  padding: 50px 30px;
+
+.content_wrap{
+  float:left;
+}
+
+
+

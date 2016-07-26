@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfolio Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
   </head>
@@ -11,45 +12,44 @@
     <header>
 
       <div class="logo"><object type="image/svg+xml" data="helmet.svg"></object></div>
+      <div class="title-menu">
+        <nav>
+          <a href="">About Me</a>
+          <a href="">Work</a>
+          <a href="">Clients</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
 
-      <nav>
-        <a href="">About Me</a>
-        <a href="">Work</a>
-        <a href="">Clients</a>
-        <a href="">Contact</a>
-      </nav>
-
-    <h1><span>Artist Theme</span></h1>
-    <p class="kicker">Enreprenuer // Designer // Engineer</p>
+    <h1><span>My Portfolio</span></h1>
+    <p class="kicker">Designer // Engineer</p>
 
     </header>
-
+    <body>
+      <p class="loren-ipsum-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </body>
     <footer>
-      <div class="footer"><?xml version="1.0" encoding="utf-8"?>
-      <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-      	 viewBox="0 0 354.1 335.5" style="enable-background:new 0 0 354.1 335.5;" xml:space="preserve">
-      <style type="text/css">
-      	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-      </style>
-      <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 78.2 67.3" style="enable-background:new 0 0 78.2 67.3;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#3A4047;}
-</style>
-<g id="XMLID_2807_">
-	<rect id="XMLID_2814_" x="26.7" y="8.6" class="st0" width="3" height="6"/>
-	<rect id="XMLID_2813_" x="32.7" y="8.6" class="st0" width="3" height="6"/>
-	<rect id="XMLID_2812_" x="39.7" y="8.6" class="st0" width="3" height="6"/>
-	<path id="XMLID_2809_" class="st0" d="M58.4,18.6H52H16.7v25.1c0,3.5,3,6.9,6.5,6.9h22.4c3.5,0,6.1-3.4,6.1-6.9v-6.1h6.7
-		c3.5,0,6.3-3.2,6.3-6.7v-6.4C64.7,21,61.9,18.6,58.4,18.6z M51.7,30.6v-6h6.7l0,6H51.7z"/>
-	<path id="XMLID_2808_" class="st0" d="M20,59.6h28.8c3.5,0,6.4-3,6.4-6H13.6C13.6,56.6,16.5,59.6,20,59.6z"/>
-</g>
-</svg>
 
-</object></div>
+    <div class="lockup">
+
+      <div class="footer-logo"><object type="image/svg+xml" data="helmet.svg"></object></div>
+
+        <div class="content_wrap">
+
+          <nav>
+            <a href="">About Me</a>
+            <a href="">Work</a>
+            <a href="">Clients</a>
+            <a href="">Contact</a>
+          </nav>
+
+          <p class="copyright">All content copyright</p>
+
+        </div>
+      
+      </div>
+
+
     </footer>
 
   </body>
